@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelGenerator : MonoBehaviour
 {
@@ -29,5 +30,11 @@ public class LevelGenerator : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Restart()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
