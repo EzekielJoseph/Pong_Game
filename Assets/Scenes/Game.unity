@@ -811,8 +811,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -61, y: -87}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -61, y: -72.83606}
+  m_SizeDelta: {x: 256.6555, y: 64.164}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &519400304
 MonoBehaviour:
@@ -863,10 +863,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 54.5
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1536,7 +1536,7 @@ GameObject:
   - component: {fileID: 1191840485}
   - component: {fileID: 1191840484}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: WaterMark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1558,8 +1558,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 51.91}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 945, y: 1800}
-  m_SizeDelta: {x: 2507.8467, y: 979.3316}
+  m_AnchoredPosition: {x: 949, y: 1944}
+  m_SizeDelta: {x: 3220.8105, y: 1257.7493}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1191840484
 MonoBehaviour:
@@ -2583,6 +2583,7 @@ GameObject:
   - component: {fileID: 2037650987}
   - component: {fileID: 2037650986}
   - component: {fileID: 2037650985}
+  - component: {fileID: 2037650990}
   - component: {fileID: 2037650989}
   m_Layer: 0
   m_Name: Ball
@@ -2744,6 +2745,19 @@ MonoBehaviour:
   - {fileID: 1703282151}
   gameOverPanel: {fileID: 32221194}
   winPanel: {fileID: 2113589550}
+--- !u!114 &2037650990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037650984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3985d662eb35da4b9a3805161cdd1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceSfx: {fileID: 8300000, guid: e7992d172691ce147bde04a9ea103f2c, type: 3}
 --- !u!1 &2113589550
 GameObject:
   m_ObjectHideFlags: 0
